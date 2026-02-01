@@ -1,0 +1,39 @@
+.container{
+    padding: 1.3rem;
+    background: rgb(253, 253, 253);
+}
+
+.backDropContainer{
+    width: 100%;
+    height: 30vh;
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQBwdgFVjHD5MprqdFoBhH4SnSC3WQeDhqnw&s");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    border-radius: 20px;
+}
+
+.backDropContainer img{
+    width: 10em;
+    height: 10em;
+    object-fit: cover;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -30%;
+    left: 8%;
+    text-align: center;
+}
+
+.profileContainer_details{
+    padding-top: 6.6rem;
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    gap: 1.4rem;
+}
+
+.card_profileContainer > img{
+    width: ;
+}

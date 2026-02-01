@@ -1,0 +1,27 @@
+.homeContainer{
+    display: flex;
+}
+.homeContainer > div:nth-child(odd){
+    flex: 0.2
+}
+.homeContainer > div:nth-child(even){
+    flex: 0.6;
+}
+.homeContainer__left{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    justify-content: center;
+    align-items: ;
+}
+
+.sideBarOption{
+    display: flex;
+    align-items: center;
+    font-size: 1.4rem;
+    gap: 1.3rem;
+}
+
+.sideBarOption > i{
+    max-height: 1.4em;
+}

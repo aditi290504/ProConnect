@@ -1,0 +1,10 @@
+.container{
+    padding: 1.3rem;
+    background: rgb(230, 230, 230);
+}
+
+.backDropContainer{
+    width: 80vw;
+    height: 30vh;
+    background: url();
+}

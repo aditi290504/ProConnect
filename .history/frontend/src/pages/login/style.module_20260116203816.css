@@ -1,0 +1,8 @@
+.cardContainer {
+  display: flex;
+  width: 80vh;
+  height: 500px;
+  box-shadow: 10px 10px 15px rgb(173, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}

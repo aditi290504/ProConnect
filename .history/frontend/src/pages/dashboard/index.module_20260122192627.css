@@ -1,0 +1,15 @@
+sc
+
+.createPostContainer{
+    display: flex;
+    height: 10vh;
+    width: 70%;
+    padding-inline: 0.8rem;
+    justify-content: center;
+}
+.createPostContainer > textarea {
+    width: 100%;
+}
+.fab > i {
+    width: 100px;
+}

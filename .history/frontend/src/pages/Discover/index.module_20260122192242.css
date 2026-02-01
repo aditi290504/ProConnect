@@ -1,0 +1,14 @@
+.createPostContainer{
+    display: flex;
+    flex-direction: column;
+    height: 10vh;
+    width: 100%;
+
+
+}
+.createPostContainer > textarea {
+    width: 100;
+}
+.fab > i {
+    width: 100px;
+}

@@ -1,0 +1,12 @@
+.container{
+    padding: 2rem;
+}
+
+.navar{
+    display: flex;
+    align-items:center;
+}
+
+.navBarOptionContainer{
+    display: flex;
+}

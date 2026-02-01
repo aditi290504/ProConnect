@@ -1,0 +1,13 @@
+POST /api/users/register HTTP/1.1
+Host: localhost:9090
+Content-Type: application/json
+Content-Length: 96
+
+{
+  "name":"ad"
+  "username"
+  "email"
+  "password"
+}
+
+

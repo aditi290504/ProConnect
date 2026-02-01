@@ -1,0 +1,22 @@
+POST /api/users/register HTTP/1.1
+Host: localhost:9090
+Content-Type: application/json
+Content-Length: 96
+
+{
+  "name":"adu--test",
+  "username": "adu_test",
+  "email": "adu@example.com",
+  "password": "123456"
+}
+
+###
+POST /api/users/login HTTP/1.1
+Host: localhost:9090
+Content-Type: application/json
+Content-Length: 52
+
+{
+  "username": "adu_test",
+  "password
+

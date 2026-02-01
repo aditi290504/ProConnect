@@ -1,0 +1,9 @@
+.homeContainer{
+    display: flex;
+}
+.homeContainer > div:nth-child(odd){
+    flex: 0.2
+}
+.homeContainer > div:nth-child(even){
+    fle
+}

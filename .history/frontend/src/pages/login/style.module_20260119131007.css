@@ -1,0 +1,58 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90svh;
+    background: snow;
+}
+
+.cardContainer {
+  display: flex;
+  width: 80vw;
+  height: 80vh;
+  background: white;
+  box-shadow: 10px 10px 15px rgb(173, 173, 173);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.cardContainer__left{
+    flex:0.6;
+    padding: 2rem;
+    text-align: center;
+}
+
+.leftHeading{
+    font-weight: bold;
+    font-size: 2.8rem;
+}
+
+.inputContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-top: 3rem;
+    align-items: center;
+}
+
+.inputRow{
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+    justify-content: center;
+}
+.inputField{
+    padding-inline: 1.3rem;
+    padding-block: 0.8rem;
+    outline: none;
+    border-radius: 10px;
+    border: 1px solid silver;
+}
+
+.cardContainer__right{
+    flex:0.4;
+    background: #00488b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

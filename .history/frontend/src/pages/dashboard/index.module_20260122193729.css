@@ -1,0 +1,27 @@
+.scrollComponent{
+    display: flex;
+    justify-content: center;
+}
+
+.createPostContainer{
+    display: flex;
+    height: 10vh;
+    width: 80%;
+    padding-inline: 0.8rem;
+    justify-content: center;
+    al
+}
+.createPostContainer > textarea {
+    width: 100%;
+}
+.fab{
+    background-color: silver;
+    width: 35px;
+    border-radius: 100%;
+    justify-content: center;
+    display: flex;
+}
+.fab > i {
+    width: 100px;
+    margin-left: 10px;
+}

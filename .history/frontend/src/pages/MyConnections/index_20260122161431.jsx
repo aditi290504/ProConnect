@@ -1,0 +1,13 @@
+import React from 'react'
+
+export default function MyConnections() {
+  return (
+    <div>
+       <UserLayout>
+             <DashboardLayout>
+                <h1>Dashboard</h1>
+             </DashboardLayout>
+          </UserLayout>
+    </div>
+  )
+}

@@ -1,0 +1,33 @@
+import User from '../models/user.models.js';
+import bcrypt from 'bcrypt';
+
+export const activeCheck = async(req, res) => {
+    return res.status(200).json({message: "Active" });
+}
+
+export const register = async(req, res) => {
+    // Registration logic will go here
+    try {
+        const {name, email, password, username} = req.body;
+
+        if(!name || !email || !password || !username) {
+            return res.status(400).json({message: "All fields are required" });
+        }
+
+        const user = await User.findOne({email});
+        if(user) {
+            return res.status(400).json({message: "User already exists" });
+        }
+
+        const hashedPassword = await bcrypt.hash(password, 10);
+        const newUser = new User({
+            name,
+            email,
+            password: hashedPassword,
+            username
+        });
+
+    } catch (error) {
+        return res.status(500).json({message: "Registration failed", error: error.message });
+    }
+}

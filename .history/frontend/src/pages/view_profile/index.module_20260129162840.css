@@ -1,0 +1,16 @@
+.container{
+    padding: 1.3rem;
+    background: rgb(230, 230, 230);
+}
+
+.backDropContainer{
+    width: 80vw;
+    height: 30vh;
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQBwdgFVjHD5MprqdFoBhH4SnSC3WQeDhqnw&s");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    border-radius: 20px;
+}
+
+.backDropContainer 

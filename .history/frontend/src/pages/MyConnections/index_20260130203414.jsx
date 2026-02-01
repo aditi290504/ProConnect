@@ -1,0 +1,21 @@
+import React, { useEffect } from 'react'
+import UserLayout from '@/layout/userLayout'
+import DashboardLayout from '@/layout/dashboardLayout'
+import { getMyConnectionRequests } from '@/config/redux/action/authAction';
+
+export default function MyConnections() {
+
+  const dispatch = use();
+  useEffect(() => {
+    dispatch(getMyConnectionRequests());
+  })
+  return (
+    <div>
+       <UserLayout>
+             <DashboardLayout>
+                <h1>MyConnections</h1>
+             </DashboardLayout>
+          </UserLayout>
+    </div>
+  )
+}

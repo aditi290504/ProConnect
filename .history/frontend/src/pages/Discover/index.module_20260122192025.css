@@ -1,0 +1,11 @@
+.createPostContainer{
+    display: flex;
+    height: 40vh;
+    width: 100%;
+
+
+}
+
+.fab > i {
+    width: 100px;
+}

@@ -1,0 +1,129 @@
+.scrollComponent{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.createPostContainer{
+    display: flex;
+    height: 10vh;
+    width: 80%;
+    padding-inline: 0.8rem;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: rgb(255,246,246);
+    border-radius: 20px;
+}
+.createPostContainer > textarea {
+    width: 100%;
+}
+.fab{
+    background-color: #284568;
+    width: 35px;
+    height: 30px;
+    border-radius: 100%;
+    justify-content: center;
+    display: flex;
+}
+.fab > i {
+    width: 100px;
+    margin-left: 10px;
+    margin-top: 8.8px;
+    color: white;
+}
+
+.textAreaOfContent{
+    width: 80%;
+    height: 70%;
+    border: 1px solid silver;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-inline: 1.5rem;
+    padding-block: 0.8rem;
+
+}
+.uploadButton{
+    position: absolute;
+    right: 0;
+    bottom: -12px;
+    background: #284568;
+    color: white;
+    padding-inline: 0.8rem;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.singleCard{
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+    border-bottom: 1px solid rgb(179, 179, 179);
+}
+
+.singleCard_profileContainer{
+    display: flex;
+    align-items: flex-start;
+    gap: 1.2rem;
+    padding: 1.2rem;
+    padding-right: 3.4rem;
+}
+
+.singleCard_profileContainer > img{
+    width: 10%;
+    border-radius: 50%;
+}
+
+.singleCard_image{
+   width: 100%;
+   padding-top: 0.6rem;
+   height: fit-content;
+   overflow: hidden;
+}
+.singleCard_image > img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.optionsContainer{
+    display: flex;
+    width: 100%;
+    height: 20%;
+    justify-content: space-between;
+    padding-block: 0.6rem;
+}
+
+.singleOption_optionsContainer{
+    display: flex;
+    align-items: center;
+    width: 150;
+    gap: 1rem;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.singleOption_optionsContainer > i{
+    height: 100%;
+
+}
+
+.commentsContainer{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    background: rgba(0, 0, 0, 0.7);
+    overflow: hidden;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.allCommentsContainer{
+    width: 40vw;
+    
+}

@@ -1,0 +1,17 @@
+import React from "react";
+import styles from "./index.module.css";
+
+export default function DashboardLayout({ children }) {
+  return (
+    <div>
+      <div className={styles.Container}>
+        <div className={styles.home-Container}>
+          <div className={styles.home-Container__left}></div>
+
+          <div className={styles.feed-Container}>{children}</div>
+          <div className={styles.extra-container}></div>
+        </div>
+      </div>
+    </div>
+  );
+}

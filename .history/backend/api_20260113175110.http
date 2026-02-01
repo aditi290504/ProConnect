@@ -1,0 +1,59 @@
+POST /api/users/register HTTP/1.1
+Host: localhost:9090
+Content-Type: application/json
+Content-Length: 96
+
+{
+  "name":"Gaurav",
+  "username": "Gaurav123",
+  "email": "gau@example.com",
+  "password": "123456"
+}
+
+###
+POST /api/users/login HTTP/1.1
+Host: localhost:9090
+Content-Type: application/json
+Content-Length: 52
+
+{
+  "email": "adu@example.com",
+  "password": "123456"
+}
+
+###
+POST /api/users/login HTTP/1.1
+Host: localhost:9090
+Content-Type: application/json
+Content-Length: 52
+
+{
+  "email": "gau@example.com",
+  "password": "123456"
+}
+###
+POST /api/users/get_user_and_profile HTTP/1.1
+Host: localhost:9090
+Content-Type: application/json
+Content-Length: 52
+
+{
+  "token": "e7e935d0eb9974025b606da82292d260ca13e8c7d3d897bec5117070fd18d88a" 
+}
+
+###
+POST /api/users/update_profile_data HTTP/1.1
+Host: localhost:9090
+Content-Type: application/json
+Content-Length: 52
+
+{
+  "token": "2f62803deceb6d6642d8323cefbebd9010aec2c4a07924491475721f11a099f0",
+  "name":"adu--test-updated",
+  "username": "adu_test-1"
+  ""
+}
+
+###
+GET /api/users/get_all_users HTTP/1.1
+Host: localhost:9090

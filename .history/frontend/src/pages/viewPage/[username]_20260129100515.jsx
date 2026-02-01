@@ -1,0 +1,28 @@
+import { clientServer } from '@/config';
+import { useSearchParams } from 'next/navigation'
+import { useRouter } from 'next/router';
+import React from 'react'
+
+export default function ViewProfile() {
+
+    const searchParamers = useSearchParams();
+
+    const router = useRouter();
+  return (
+    <div>
+      ViewProfile
+    </div>
+  )
+}
+
+export async function getServerSideProps(context) {
+  console.log("From View")
+  console.log(context.query.username)
+
+  const request = await clientServer.get("/get_user_profile_by_username", {
+    params
+  })
+
+  return{ props: {data}}
+  
+}

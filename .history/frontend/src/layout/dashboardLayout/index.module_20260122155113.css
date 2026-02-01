@@ -1,0 +1,19 @@
+.homeContainer{
+    display: flex;
+}
+.homeContainer > div:nth-child(odd){
+    flex: 0.2
+}
+.homeContainer > div:nth-child(even){
+    flex: 0.6;
+}
+.homeContainer__left{
+    display: flex;
+    flex-direction: column;
+}
+
+.sideBarOption{
+    display: flex;
+}
+
+.
